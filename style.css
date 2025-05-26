@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family:'Segoe UI';
+    background-color: seashell;
+}
+header{
+    background-color: indigo;
+    color: lavenderblush;
+    text-align: center;
+    padding: 20px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: plum;
+}
+nav ul li{
+    padding: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: indigo;
+    font-weight:bold;
+}
+.container{
+    display: flex;
+    margin: 20px;
+    margin-bottom: 70px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.conteudo{
+    flex:3;
+    background-color: mistyrose;
+    padding: 20px;
+    border-radius:15px;
+    margin: 20px;
+}
+.lado{
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+    flex:1;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+footer{
+    background-color: darkmagenta;
+    color: lavenderblush;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width:100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.subtitulo{
+    text-align: center;
+    font-family:'Franklin Gothic Medium';
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 10px;
+    color: rgb(29, 25, 50);
+    font-size: 48px;
+}
+.imagens{
+    width:100%;
+    border-radius:10px;
+    max-width: 400px;
+    margin: 0px;
+    border: 6px;
+    border-color: peachpuff;
+    border-style: solid;
+}
+.linhas{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 10%;
+}
+.linhas2{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 10%;
+}
+.jogos{
+    font-size:36px;
+    margin: 5px;
+}
+.paragrafo{
+    margin-left: 30px;
+    font-size:22px;
+}
+.listas{
+    font-weight:500;
+    margin-left: 30px;
+    font-size:22px;
+}
+.ladotexto{
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+    flex:1;
+    display: flex;
+    background-color: peachpuff;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+.centro{
+    displaY:flex;
+    justify-self:center;
+    border-radius: 15px;
+    max-width: 30%;
+}
+/*Media Query*/
+@media(max-width:  768px){
+    .linhas{
+        flex-direction: column;
+    }
+    .linhas2{
+        flex-direction: column-reverse;
+    }
+}
